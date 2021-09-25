@@ -40,6 +40,7 @@ h2 {
 .header-top {
   background-color: #f6f6f6;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
 }
 
 .header-left-column {
@@ -170,8 +171,7 @@ h2 {
   padding: 0;
   margin: 0;
   padding-bottom: 20px;
-  list-style: none;
-  margin-top: 30px;
+  list-style: none;;
   border-bottom: 1px solid #d1d1d1;
 }
 
@@ -194,10 +194,6 @@ h2 {
 }
 
 /* MAIN */
-/* .news-top {
-  display: flex;
-  justify-content: space-between;
-} */
 .news-block {
   display: flex;
   flex-wrap: wrap;
