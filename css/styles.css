@@ -12,8 +12,20 @@ body {
   background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
 
-/* CONTAIBNER */
+h2 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTAINER */
 .container {
   display: flex;
   align-items: center;
@@ -173,4 +185,120 @@ body {
   line-height: 1;
   color: #7f7f7f;
   text-decoration: none;
+}
+
+
+.banner {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+/* MAIN */
+/* .news-top {
+  display: flex;
+  justify-content: space-between;
+} */
+.news-block {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-left: -10px;
+  margin-bottom: -10px;
+}
+.block-item {
+  width: 393px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  list-style: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.block-container {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  widows: 100%;
+  max-width: 360px;
+  padding: 0 auto;
+  margin: 20px auto 15px;
+}
+
+.item-title {
+  margin: 0px 17px 0px 0px;
+  padding: 0;
+}
+
+.item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a4b4c;
+  margin: 10px auto 0px;
+}
+
+.item-img {
+  display: block;
+  width: 360px;
+  height: 165px;
+  border-radius: 10px;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+.item-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 15px;
+}
+
+.bottom-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
+
+.bottom-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.main-belt-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1050px;
+  height: 100px;
+  background-image: url(/img/belt.png);
+  margin: 60px 75px;
+  background-repeat: no-repeat;
+}
+
+.belt-text {
+  width: 404px;
+  margin: 0;
+  margin-left: 29px;
+}
+
+.belt-button {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f78b3b;
+  padding: 13px 30px;
+  border-radius: 10px;
+  margin-right: 71px;
 }
