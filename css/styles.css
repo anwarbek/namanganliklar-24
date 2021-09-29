@@ -15,8 +15,7 @@ body {
 a {
   text-decoration: none;
 }
-
-h2 {
+.item-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 500;
@@ -216,9 +215,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  widows: 100%;
   max-width: 360px;
-  padding: 0 auto;
   margin: 20px auto 15px;
 }
 
@@ -297,4 +294,133 @@ h2 {
   padding: 13px 30px;
   border-radius: 10px;
   margin-right: 71px;
+}
+.main-bottom-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.main-header {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+}
+
+.main-bottom-news-section {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28.44px;
+  margin: 0px 0px 20px;
+}
+
+.main-bottom-news {
+  width: 797px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 20px 17px;
+}
+
+.main-bottom-img {
+  display: block;
+  border-radius: 10px;
+  width: 210px;
+  height: 165px;
+  margin: 0 15px 0 0;
+  object-fit: cover;
+}
+
+.main-bottom-content-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.main-bottom-content-text {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 17px 0;
+}
+
+.main-bottom-content-bottom {
+  margin: 0;
+}
+
+.sidebar {
+  width: 393px;
+  margin: 0px 0px 0px 10px;
+}
+
+.sidebar-news {
+  padding: 20px 17px 24px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  margin: 0 0 10px 0;
+}
+
+.sidebar-content {
+  padding: 0;
+  margin: 0;
+  }
+
+.sidebar-content .block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0;
+  margin: 0;
+}
+
+.block:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+
+}
+
+.sidebar-title {
+  margin-bottom: 25px;
+}
+
+.sidebar-content-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 0 auto 7px;
+}
+
+.sidebar-content-text {
+  font-size: 13px;
+  line-height: 15.41px;
+  font-weight: 400;
+}
+
+.sidebar-content-text:not(:last-child) {
+  margin: 0 0 25px 0;
+}
+
+.sidebar-reklama {
+  width: 393px;
+  height: 338px;
+  border-radius: 15px;
 }
