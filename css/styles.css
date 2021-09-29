@@ -381,7 +381,7 @@ a {
 .sidebar-content {
   padding: 0;
   margin: 0;
-  }
+}
 
 .sidebar-content .block {
   display: flex;
@@ -395,14 +395,15 @@ a {
   border-bottom: 1px solid #d2d2d2;
   margin: 0 0 20px;
   padding: 0 0 20px;
-
+  
 }
-
+/* 
 .sidebar-title {
   margin-bottom: 25px;
-}
+} */
 
 .sidebar-content-title {
+  color: #000;
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;
@@ -410,6 +411,7 @@ a {
 }
 
 .sidebar-content-text {
+  color: #000;
   font-size: 13px;
   line-height: 15.41px;
   font-weight: 400;
