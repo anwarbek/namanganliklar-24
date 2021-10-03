@@ -3,7 +3,14 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Rubik", "Arial", sans-serif;
@@ -38,7 +45,6 @@ a {
 /* HEADER */
 .header-top {
   background-color: #f6f6f6;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 30px;
 }
 
@@ -50,7 +56,6 @@ a {
 .logo {
   margin: 30px 35px 30px 0;
   border-radius: 7px;
-  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
 .currency-section {
@@ -90,7 +95,7 @@ a {
   line-height: 17px;
   background-color: #fff;
   background-size: 20px;
-  background-image: url('/img/search.svg');
+  background-image: url('../img/search.svg');
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
@@ -193,13 +198,16 @@ a {
 }
 
 /* MAIN */
+main {
+  margin-bottom: 100px;
+}
+
 .news-block {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
   margin-left: -10px;
-  margin-bottom: -10px;
 }
 .block-item {
   width: 393px;
@@ -220,7 +228,7 @@ a {
 }
 
 .item-title {
-  margin: 0px 17px 0px 0px;
+  margin: 0px 17px 10px 0px;
   padding: 0;
 }
 
@@ -258,8 +266,6 @@ a {
 }
 
 .bottom-icon {
-  display: flex;
-  align-items: center;
   border-radius: 5px;
   width: 20px;
   height: 20px;
@@ -272,9 +278,9 @@ a {
   justify-content: space-between;
   width: 1050px;
   height: 100px;
-  background-image: url(/img/belt.png);
-  margin: 60px 75px;
-  background-repeat: no-repeat;
+  margin: 60px auto;
+  border-radius: 10px;
+  background-color: #ffd7ba;
 }
 
 .belt-text {
@@ -295,9 +301,12 @@ a {
   border-radius: 10px;
   margin-right: 71px;
 }
+
 .main-bottom-container {
   display: flex;
+  align-items: start;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .main-bottom {
@@ -356,6 +365,10 @@ a {
   object-fit: cover;
 }
 
+.main-bottom-content {
+  color: #000;
+}
+
 .main-bottom-content-title {
   font-size: 20px;
   line-height: 26px;
@@ -390,7 +403,7 @@ a {
   margin: 0;
 }
 
-.sidebar-content .block {
+.sidebar-content {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -398,7 +411,7 @@ a {
   margin: 0;
 }
 
-.block:not(:last-child) {
+.sidebar-content:not(:last-child) {
   border-bottom: 1px solid #d2d2d2;
   margin: 0 0 20px;
   padding: 0 0 20px;
@@ -408,8 +421,8 @@ a {
 .sidebar-content-title {
   color: #000;
   font-size: 18px;
-  line-height: 24px;
   font-weight: 500;
+  line-height: 24px;
   margin: 0 auto 7px;
 }
 
@@ -424,8 +437,108 @@ a {
   margin: 0 0 25px 0;
 }
 
-.sidebar-reklama {
+.sidebar-reklama-img {
   width: 393px;
   height: 338px;
   border-radius: 15px;
+}
+
+footer {
+  width: 100%;
+  min-width: 1200px;
+  color: #fff;
+  background-color: #7297EF;
+}
+
+.footer-image {
+  width: 262px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.footer-content {
+  padding: 40px 100px ;
+}
+
+.footer-top {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  width: 229px;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 203px 71px 0;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.site-footer-list {
+  margin-bottom: 30px;
+}
+
+.site-footer-list:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.site-footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 75px;
+}
+
+.site-footer-links:not(:last-child) {
+  margin-right: 100px;
+}
+
+.site-footer-link {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-bottom-title {
+  width: 161px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+}
+
+.footer-social {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-list:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
 }
