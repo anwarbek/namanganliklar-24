@@ -104,10 +104,6 @@ a {
   margin-right: 25px;
 }
 
-.search:focus {
-  outline: 0;
-  outline-offset: 0;
-}
 
 .links {
   margin: 30px 25px 30px 0;
@@ -224,7 +220,8 @@ main {
   justify-content: space-between;
   flex-direction: column;
   max-width: 360px;
-  margin: 20px auto 15px;
+  padding-bottom: 15px;
+  margin: 20px auto 0;
 }
 
 .item-title {
