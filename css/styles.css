@@ -19,9 +19,7 @@ body {
   background-color: #fff;
 }
 
-a {
-  text-decoration: none;
-}
+
 .item-title {
   font-size: 20px;
   line-height: 26px;
@@ -194,80 +192,83 @@ a {
 }
 
 /* MAIN */
-main {
+.main-content {
+  flex-grow: 1;
   margin-bottom: 100px;
 }
 
-.news-block {
+.news-grid {
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
   margin-left: -10px;
 }
-.block-item {
-  width: 393px;
-  border-radius: 15px;
-  background-color: #f6f6f6;
-  list-style: none;
+
+.news-grid-item {
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
-.block-container {
-  width: 360px;
+.article-card {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  max-width: 360px;
-  padding-bottom: 15px;
-  margin: 20px auto 0;
+  width: 393px;
+  padding: 20px 17px 15px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+.article-card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.article-card-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+.article-card-link:hover {
+  color: #7296ec;
 }
 
-.item-title {
-  margin: 0px 17px 10px 0px;
-  padding: 0;
+.article-card-link:active {
+  opacity: 0.6;
 }
 
-.item-text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #4a4b4c;
-  margin: 10px auto 0px;
+.article-card-text {
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
-.item-img {
+.article-card-img {
   display: block;
   width: 360px;
   height: 165px;
+  margin-top: auto;
+  margin-bottom: 15px;
   border-radius: 10px;
-  margin-top: 15px;
   object-fit: cover;
 }
 
-.item-bottom {
+.article-card-footer {
   display: flex;
   align-items: center;
-  justify-content: start;
-  margin-top: 15px;
 }
 
-.bottom-text{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  color: #5e5f61;
-}
-
-.bottom-icon {
-  border-radius: 5px;
+.article-card-source-icon {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+  border-radius: 5px;
 }
+
+.article-card-source-time {
+  font-size: 12px;
+  line-height: normal;
+  color: #5e5f61;
+}
+
 
 .main-belt-content {
   display: flex;
@@ -440,14 +441,14 @@ main {
   border-radius: 15px;
 }
 
-footer {
+.site-footer {
   width: 100%;
   min-width: 1200px;
   color: #fff;
   background-color: #7297EF;
 }
 
-.footer-image {
+.footer-logo {
   width: 262px;
   margin: 0;
   margin-bottom: 15px;
