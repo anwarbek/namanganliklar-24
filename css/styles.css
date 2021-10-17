@@ -472,7 +472,7 @@ body {
 
 .sidebar-ad-img {
   width: 393px;
-  height: 338px;
+  height: auto;
   border-radius: 15px;
   object-fit: cover;
 }
