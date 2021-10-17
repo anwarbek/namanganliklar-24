@@ -18,388 +18,394 @@
 
 <body>
   
-  <!-- SITE-HEADER -->
+  <!-- Site-header -->
   <header class="site-header">
-    
-    <!-- HEADER-TOP -->
-    <div class="header-top">
-      <div class="container">
-        <div class="header-left-column">
-          <a href="#"><img class="logo" src="./img/logo.svg" alt="logo" width="275" height="45"></a>
-          <div class="currency-section">
-            <div class="currency">
-              <img class="currency-icon" src="./img/icon-dollar.svg" alt="icon-dollar" width="13" height="15">
-              <span>10137.2</span>
-            </div>
-            <div class="currency">
-              <img class="currency-icon" src="./img/icon-rubl.svg" alt="icon-rubl" width="10" height="12">
-              <span>138.26</span>
-            </div>
-          </div>
+    <!-- Site-headere-top -->
+    <div class="site-header-top">
+      <div class="site-header-top-container container">
+        <!-- Site-header-logo -->
+        <a class="site-header-logo" href="index.html">
+          <img class="site-header-logo-img" src="./img/logo.svg" alt="logo" width="263" height="28">
+        </a>
+        
+        <!-- Currency-rates -->
+        <ul class="currency-rates">
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">$</b>
+            <span class="currency-rates-value">10137.2</span>
+          </li>
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">Р</b>
+            <span class="currency-rates-value">138.26</span>
+          </li>
+        </ul>
+        
+        <!-- Global-search-form -->
+        <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
+          <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="поиск" required>
+        </form>
+        
+        <!-- Lang-toggle -->
+        <div class="lang-toggle">
+          <a class="lang-toggle-link" href="https://namanganliklar24.uz/">УЗ</a></li>
+          <a class="lang-toggle-link lang-toggle-active" href="https://yavbasarov-namanganliklar-24.netlify.app/">РУ</a></li>
         </div>
         
-        <div class="header-right-column">
-          <input class="search" type="text" name="search" placeholder="Поиск">
-          <div class="links">
-            <ul class="language-links">
-              <li class="link-uz"><a class="uz" href="#">УЗ</a></li>
-              <li class="link-ru"><a class="ru" href="#">РУ</a></li>
-            </ul>
-          </div>          
-          <div class="button"><a class="login" href="#">Войти</a></div>
+        <!-- Site-header-auth -->
+        <a class="button button-primary" href="#">Войти</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Header-bottom -->
+  <nav class="sitenav">
+    <div class="container">
+      <ul class="sitenav-list">
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Главное</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Интересное</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Экономика</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Политика</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Общество</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Технологии</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Спорт</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Культура</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Происшествия</a>
+        </li>
+        
+        <li class="sitenav-item">
+          <a class="sitenav-link" href="#">Наука</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="heder-bottom">
+    <div class="container">
+      <a class="banner" href="https://shopme.uz/">
+        <img src="./img/banner.png" alt="banner" width="1200" height="128" srcset="img/banner.png 1x, img/banner@2x.png 2x">
+      </a>
+    </div>
+  </div>
+</header>
+
+
+<!-- MAIN -->
+<main class="main-content">
+  <div class="container">
+    <!-- <h1>Namanganliklar2 - сайт новостей</h1> -->
+    
+    <!-- Top-news -->
+    <section class="top-news">
+      <!-- <h2>Топ новостей</h2> -->
+      <!-- News-grid -->
+      <div class="news-grid">
+        <!-- News-grid-item -->
+        <article class="news-grid-item article-card">
+          <h3 class="article-card-title">
+            <a href="https://rossaprimavera.ru/feed/news" class="article-card-link">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a>
+          </h3>
+          <p class="article-card-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+          <img class="article-card-img" src="img/flag.jpg" alt="flag" width="360" height="165" srcset="./img/flag.jpg 1x, ./img/flag@2x.jpg 2x">
+          <footer class="article-card-footer">
+            <img src="img/krasnaya-vesna.png" alt="krasnaya-vesna" class="article-card-source-icon" width="20" height="20">
+            <div class="article-card-source-time">
+              <span class="article-card-source">ИА Красная Весна</span>
+              <time datetime="2021-10-16">15:55</time>
+            </div>
+          </footer>
+        </article>
+        <!-- News-grid-item -->
+        <article class="news-grid-item article-card">
+          <h3 class="article-card-title">
+            <a href="https://www.gazeta.ru/" class="article-card-link">Ученые доказали экспериментальным путем пользу покровных культур</a>
+          </h3>
+          <p class="article-card-text">Новое исследование ученых университета Иллинойса объединяет полевые данные...</p>
+          <img class="article-card-img" src="img/wheat.jpg" alt="wheat" width="360" height="165" srcset="./img/wheat.jpg 1x, ./img/wheat@2x.jpg 2x">
+          <footer class="article-card-footer">
+            <img src="img/gazeta.ru.png" alt="gazeta.ru" class="article-card-source-icon" width="20" height="20">
+            <div class="article-card-source-time">
+              <span class="article-card-source">Газета.Ru</span>
+              <time datetime="2021-10-16">12:54</time>
+            </div>
+          </footer>
+        </article>
+        <!-- News-grid-item -->
+        <article class="news-grid-item article-card">
+          <h3 class="article-card-title">
+            <a href="https://hightech.plus/" class="article-card-link">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a>
+          </h3>
+          <p class="article-card-text">Автопарк Baidu состоит из модифицированных электромобилей EV...</p>
+          <img class="article-card-img" src="img/robotaxi.jpg" alt="robotaxi" width="360" height="165" srcset="./img/robotaxi.jpg 1x, ./img/robotaxi@2x.jpg 2x">
+          <footer class="article-card-footer">
+            <img src="img/hightech+.png" alt="hightech+" class="article-card-source-icon" width="20" height="20">
+            <div class="article-card-source-time">
+              <span class="article-card-source">Хайтек+</span>
+              <time datetime="2021-10-16">13:44</time>
+            </div>
+          </footer>
+        </article>
+        <!-- News-grid-item -->
+        <article class="news-grid-item article-card">
+          <h3 class="article-card-title">
+            <a href="https://www.digger.ru/" class="article-card-link">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
+          </h3>
+          <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+          <img class="article-card-img" src="img/phone.jpg" alt="iphone-13" width="360" height="165" srcset="./img/phone.jpg 1x, ./img/phone@2x.jpg 2x">
+          <footer class="article-card-footer">
+            <img src="img/digger.ru.png" alt="digger.ru" class="article-card-source-icon" width="20" height="20">
+            <div class="article-card-source-time">
+              <span class="article-card-source">Digger.ru</span>
+              <time datetime="2021-10-16">14:25</time>
+            </div>
+          </footer>
+        </article>
+        <!-- News-grid-item -->
+        <article class="news-grid-item article-card">
+          <h3 class="article-card-title">
+            <a href="https://lenta.ru/" class="article-card-link">Nature: ученые смогли доказать природное происхождение коронавируса
+              SARS-CoV-2</a>
+            </h3>
+            <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значение...</p>
+            <img class="article-card-img" src="img/sars-cov-2.jpg" alt="sars-cov-2" width="360" height="165" srcset="./img/sars-cov-2.jpg 1x, ./img/sars-cov-2@2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img src="img/lenta.ru.png" alt="lenta.ru" class="article-card-source-icon" width="20" height="20">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Lenta.ru</span>
+                <time datetime="2021-10-16">10:54</time>
+              </div>
+            </footer>
+          </article>
+          <!-- News-grid-item -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a href="https://tarantas.news/" class="article-card-link">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
+            </h3>
+            <p class="article-card-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+            <img class="article-card-img" src="img/car.jpg" alt="car" width="360" height="165" srcset="./img/car.jpg 1x, ./img/car@2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img src="img/trantas-news.png" alt="trantas-news" class="article-card-source-icon" width="20" height="20">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Тарантас Ньюс</span>
+                <time datetime="2021-10-16">10:44</time>
+              </div>
+            </footer>
+          </article>
+          
+        </div>
+      </section>
+    </div>
+    
+    
+    
+    <div class="main-belt">
+      <div class="container">
+        <div class="main-belt-content">
+          <h3 class="belt-text">Хотите быть в курсе свежих новостей? Включите уведомления!</h3>
+          <a class="belt-button" href="#">Включит</a>
         </div>
       </div>
     </div>
     
-    <!-- HEADER-BOTTOM -->
-    <nav class="sitenav">
-      <div class="container">
-        <ul class="sitenav-list">
-          
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Главное</a>
+    <div class="main-bottom-container container">
+      <h2 class="main-bottom-title">В мире</h2>
+      <div class="main-bottom">
+        <ul class="main-bottom-news-section">
+          <li class="main-bottom-news">
+            <a class="card" href="https://rossaprimavera.ru/feed/news">
+              <img class="main-bottom-img" src="/img/airplane.jpg" alt="airplane" width="210" height="165">
+              <div class="main-bottom-content">
+                <h3 class="main-bottom-content-title">Китайский Чунцин запустил чартерный рейс для студентов до Британии</h3>
+                <p class="main-bottom-content-text">Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
+                <div class="main-bottom-content-bottom item-bottom">
+                  <div class="bottom-icon">
+                    <img src="./img/krasnaya-vesna.png" alt="" width="20" height="20">
+                  </div>
+                  <div class="bottom-text">
+                    <span>ИА Красная Весна 12:25</span>
+                  </div>
+                </div>
+              </div>
+            </a>
           </li>
           
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Интересное</a>
+          <li class="main-bottom-news">
+            <a class="card" href="https://tass.ru/">
+              <img class="main-bottom-img" src="/img/Angela-Merkel.jpg" alt="Angela-Merkel" width="210" height="165">
+              <div class="main-bottom-content">
+                <h3 class="main-bottom-content-title">В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель</h3>
+                <p class="main-bottom-content-text">БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
+                <div class="main-bottom-content-bottom item-bottom">
+                  <div class="bottom-icon">
+                    <img src="./img/tacc.png" alt="" width="20" height="20">
+                  </div>
+                  <div class="bottom-text">
+                    <span>ТАСС 11:35</span>
+                  </div>
+                </div>
+              </div>
+            </a>
           </li>
           
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Экономика</a>
+          <li class="main-bottom-news">
+            <a class="card" href="https://www.rbc.ru/">
+              <img class="main-bottom-img" src="/img/street.jpg" alt="street" width="210" height="165">
+              <div class="main-bottom-content">
+                <h3 class="main-bottom-content-title">Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас</h3>
+                <p class="main-bottom-content-text">За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
+                <div class="main-bottom-content-bottom item-bottom">
+                  <div class="bottom-icon">
+                    <img src="./img/rbk.png" alt="" width="20" height="20">
+                  </div>
+                  <div class="bottom-text">
+                    <span>РБК Инвестиции 09:35</span>
+                  </div>
+                </div>
+              </div>
+            </a>
           </li>
           
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Политика</a>
+          <li class="main-bottom-news">
+            <a class="card" href="https://solenka.info/">
+              <img class="main-bottom-img" src="/img/flag-red.jpg" alt="flag-red" width="210" height="165">
+              <div class="main-bottom-content">
+                <h3 class="main-bottom-content-title">Китай раскритиковал заключенный Австралией, США и Великобританией антикитайский союз AUKUS</h3>
+                <p class="main-bottom-content-text">Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
+                <div class="main-bottom-content-bottom item-bottom">
+                  <div class="bottom-icon">
+                    <img src="./img/Solenka.info.png" alt="" width="20" height="20">
+                  </div>
+                  <div class="bottom-text">
+                    <span>Solenka.info 19:43</span>
+                  </div>
+                </div>
+              </div>
+            </a>
           </li>
-          
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Общество</a>
+          <li class="main-bottom-news card">
+            <a class="main-bottom-news-link" href="#">Показать ещё</a>
           </li>
-          
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Технологии</a>
-          </li>
-          
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Спорт</a>
-          </li>
-          
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Культура</a>
-          </li>
-          
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Происшествия</a>
-          </li>
-          
-          <li class="sitenav-item">
-            <a class="sitenav-link" href="#">Наука</a>
-          </li>
-          
         </ul>
-      </div>
-    </nav>
-    
-    <div class="heder-bottom">
-      <div class="container">
-        <a class="banner" href="https://shopme.uz/">
-          <img src="./img/banner.png" alt="banner" width="1200" height="128" srcset="img/banner.png 1x, img/banner@2x.png 2x">
-        </a>
-      </div>
-    </div>
-  </header>
-  
-  
-  <!-- MAIN -->
-  <main class="main-content">
-    <div class="container">
-      <!-- <h1>Namanganliklar2 - сайт новостей</h1> -->
-      
-      <!-- TOP-NEWS -->
-      <section class="top-news">
-        <!-- <h2>Топ новостей</h2> -->
-        <!-- News-grid -->
-        <div class="news-grid">
-          <!-- News-grid-item -->
-          <article class="news-grid-item article-card">
-            <h3 class="article-card-title">
-              <a href="https://rossaprimavera.ru/feed/news" class="article-card-link">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a>
-            </h3>
-            <p class="article-card-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-            <img class="article-card-img" src="img/flag.jpg" alt="flag" width="360" height="165" srcset="./img/flag.jpg 1x, ./img/flag@2x.jpg 2x">
-            <footer class="article-card-footer">
-              <img src="img/krasnaya-vesna.png" alt="krasnaya-vesna" class="article-card-source-icon" width="20" height="20">
-              <div class="article-card-source-time">
-                <span class="article-card-source">ИА Красная Весна</span>
-                <time datetime="2021-10-16">15:55</time>
-              </div>
-            </footer>
-          </article>
-          <!-- News-grid-item -->
-          <article class="news-grid-item article-card">
-            <h3 class="article-card-title">
-              <a href="https://www.gazeta.ru/" class="article-card-link">Ученые доказали экспериментальным путем пользу покровных культур</a>
-            </h3>
-            <p class="article-card-text">Новое исследование ученых университета Иллинойса объединяет полевые данные...</p>
-            <img class="article-card-img" src="img/wheat.jpg" alt="wheat" width="360" height="165" srcset="./img/wheat.jpg 1x, ./img/wheat@2x.jpg 2x">
-            <footer class="article-card-footer">
-              <img src="img/gazeta.ru.png" alt="gazeta.ru" class="article-card-source-icon" width="20" height="20">
-              <div class="article-card-source-time">
-                <span class="article-card-source">Газета.Ru</span>
-                <time datetime="2021-10-16">12:54</time>
-              </div>
-            </footer>
-          </article>
-          <!-- News-grid-item -->
-          <article class="news-grid-item article-card">
-            <h3 class="article-card-title">
-              <a href="https://hightech.plus/" class="article-card-link">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a>
-            </h3>
-            <p class="article-card-text">Автопарк Baidu состоит из модифицированных электромобилей EV...</p>
-            <img class="article-card-img" src="img/robotaxi.jpg" alt="robotaxi" width="360" height="165" srcset="./img/robotaxi.jpg 1x, ./img/robotaxi@2x.jpg 2x">
-            <footer class="article-card-footer">
-              <img src="img/hightech+.png" alt="hightech+" class="article-card-source-icon" width="20" height="20">
-              <div class="article-card-source-time">
-                <span class="article-card-source">Хайтек+</span>
-                <time datetime="2021-10-16">13:44</time>
-              </div>
-            </footer>
-          </article>
-          <!-- News-grid-item -->
-          <article class="news-grid-item article-card">
-            <h3 class="article-card-title">
-              <a href="https://www.digger.ru/" class="article-card-link">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
-            </h3>
-            <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
-            <img class="article-card-img" src="img/phone.jpg" alt="iphone-13" width="360" height="165" srcset="./img/phone.jpg 1x, ./img/phone@2x.jpg 2x">
-            <footer class="article-card-footer">
-              <img src="img/digger.ru.png" alt="digger.ru" class="article-card-source-icon" width="20" height="20">
-              <div class="article-card-source-time">
-                <span class="article-card-source">Digger.ru</span>
-                <time datetime="2021-10-16">14:25</time>
-              </div>
-            </footer>
-          </article>
-          <!-- News-grid-item -->
-          <article class="news-grid-item article-card">
-            <h3 class="article-card-title">
-              <a href="https://lenta.ru/" class="article-card-link">Nature: ученые смогли доказать природное происхождение коронавируса
-                SARS-CoV-2</a>
-              </h3>
-              <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значение...</p>
-              <img class="article-card-img" src="img/sars-cov-2.jpg" alt="sars-cov-2" width="360" height="165" srcset="./img/sars-cov-2.jpg 1x, ./img/sars-cov-2@2x.jpg 2x">
-              <footer class="article-card-footer">
-                <img src="img/lenta.ru.png" alt="lenta.ru" class="article-card-source-icon" width="20" height="20">
-                <div class="article-card-source-time">
-                  <span class="article-card-source">Lenta.ru</span>
-                  <time datetime="2021-10-16">10:54</time>
-                </div>
-              </footer>
-            </article>
-            <!-- News-grid-item -->
-            <article class="news-grid-item article-card">
-              <h3 class="article-card-title">
-                <a href="https://tarantas.news/" class="article-card-link">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
-              </h3>
-              <p class="article-card-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
-              <img class="article-card-img" src="img/car.jpg" alt="car" width="360" height="165" srcset="./img/car.jpg 1x, ./img/car@2x.jpg 2x">
-              <footer class="article-card-footer">
-                <img src="img/trantas-news.png" alt="trantas-news" class="article-card-source-icon" width="20" height="20">
-                <div class="article-card-source-time">
-                  <span class="article-card-source">Тарантас Ньюс</span>
-                  <time datetime="2021-10-16">10:44</time>
-                </div>
-              </footer>
-            </article>
-            
+        
+        <!-- Sidebar -->
+        <section class="sidebar">
+          <div class="sidebar-news">
+            <h3 class="sidebar-title">Главное</h3>
+            <ul class="sidebar-content">
+              <li class="sidebar-content">
+                <a class="sidebar-link" href="#">
+                  <h3 class="sidebar-content-title">В Фергане создадут узбекско-пакистанский университет</h3>
+                  <span class="sidebar-content-text">Sputnik Узбекистан 14:09</span>
+                </a>
+              </li>
+              <li class="sidebar-content">
+                <a class="sidebar-link" href="#">
+                  <h3 class="sidebar-content-title">Узбекистан утвердил соглашение о содействии занятости в странах СНГ</h3>
+                  <span class="sidebar-content-text">ИА Красная Весна 10:19</span>
+                </a>
+              </li>
+              <li class="sidebar-content">
+                <a class="sidebar-link" href="#">
+                  <h3 class="sidebar-content-title">В Узбекистане увеличиваются очереди за автомобилями UzAuto</h3>
+                  <span class="sidebar-content-text">Северная газета (Армянск) 13:50</span>
+                </a>
+              </li>
+              <li class="sidebar-content">
+                <a class="sidebar-link" href="#">
+                  <h3 class="sidebar-content-title">Минтуризма опровергло приостановку выплат за шаги</h3>
+                  <span class="sidebar-content-text">Sputnik Узбекистан 14:32</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="sidebar-reklama">
+            <a href="https://olmosresidence.uz/">
+              <img class="sidebar-reklama-img" src="img/reklama.jpg" alt="reklama-banner" width="393" height="338">
+            </a>
           </div>
         </section>
       </div>
-      
-      
-      
-      <div class="main-belt">
-        <div class="container">
-          <div class="main-belt-content">
-            <h3 class="belt-text">Хотите быть в курсе свежих новостей? Включите уведомления!</h3>
-            <a class="belt-button" href="#">Включит</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="main-bottom-container container">
-        <h2 class="main-bottom-title">В мире</h2>
-        <div class="main-bottom">
-          <ul class="main-bottom-news-section">
-            <li class="main-bottom-news">
-              <a class="card" href="https://rossaprimavera.ru/feed/news">
-                <img class="main-bottom-img" src="/img/airplane.jpg" alt="airplane" width="210" height="165">
-                <div class="main-bottom-content">
-                  <h3 class="main-bottom-content-title">Китайский Чунцин запустил чартерный рейс для студентов до Британии</h3>
-                  <p class="main-bottom-content-text">Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
-                  <div class="main-bottom-content-bottom item-bottom">
-                    <div class="bottom-icon">
-                      <img src="./img/krasnaya-vesna.png" alt="" width="20" height="20">
-                    </div>
-                    <div class="bottom-text">
-                      <span>ИА Красная Весна 12:25</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            
-            <li class="main-bottom-news">
-              <a class="card" href="https://tass.ru/">
-                <img class="main-bottom-img" src="/img/Angela-Merkel.jpg" alt="Angela-Merkel" width="210" height="165">
-                <div class="main-bottom-content">
-                  <h3 class="main-bottom-content-title">В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель</h3>
-                  <p class="main-bottom-content-text">БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
-                  <div class="main-bottom-content-bottom item-bottom">
-                    <div class="bottom-icon">
-                      <img src="./img/tacc.png" alt="" width="20" height="20">
-                    </div>
-                    <div class="bottom-text">
-                      <span>ТАСС 11:35</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            
-            <li class="main-bottom-news">
-              <a class="card" href="https://www.rbc.ru/">
-                <img class="main-bottom-img" src="/img/street.jpg" alt="street" width="210" height="165">
-                <div class="main-bottom-content">
-                  <h3 class="main-bottom-content-title">Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас</h3>
-                  <p class="main-bottom-content-text">За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
-                  <div class="main-bottom-content-bottom item-bottom">
-                    <div class="bottom-icon">
-                      <img src="./img/rbk.png" alt="" width="20" height="20">
-                    </div>
-                    <div class="bottom-text">
-                      <span>РБК Инвестиции 09:35</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            
-            <li class="main-bottom-news">
-              <a class="card" href="https://solenka.info/">
-                <img class="main-bottom-img" src="/img/flag-red.jpg" alt="flag-red" width="210" height="165">
-                <div class="main-bottom-content">
-                  <h3 class="main-bottom-content-title">Китай раскритиковал заключенный Австралией, США и Великобританией антикитайский союз AUKUS</h3>
-                  <p class="main-bottom-content-text">Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
-                  <div class="main-bottom-content-bottom item-bottom">
-                    <div class="bottom-icon">
-                      <img src="./img/Solenka.info.png" alt="" width="20" height="20">
-                    </div>
-                    <div class="bottom-text">
-                      <span>Solenka.info 19:43</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="main-bottom-news card">
-              <a class="main-bottom-news-link" href="#">Показать ещё</a>
-            </li>
-          </ul>
-          
-          <!-- SIDEBAR -->
-          <section class="sidebar">
-            <div class="sidebar-news">
-              <h3 class="sidebar-title">Главное</h3>
-              <ul class="sidebar-content">
-                <li class="sidebar-content">
-                  <a class="sidebar-link" href="#">
-                    <h3 class="sidebar-content-title">В Фергане создадут узбекско-пакистанский университет</h3>
-                    <span class="sidebar-content-text">Sputnik Узбекистан 14:09</span>
-                  </a>
-                </li>
-                <li class="sidebar-content">
-                  <a class="sidebar-link" href="#">
-                    <h3 class="sidebar-content-title">Узбекистан утвердил соглашение о содействии занятости в странах СНГ</h3>
-                    <span class="sidebar-content-text">ИА Красная Весна 10:19</span>
-                  </a>
-                </li>
-                <li class="sidebar-content">
-                  <a class="sidebar-link" href="#">
-                    <h3 class="sidebar-content-title">В Узбекистане увеличиваются очереди за автомобилями UzAuto</h3>
-                    <span class="sidebar-content-text">Северная газета (Армянск) 13:50</span>
-                  </a>
-                </li>
-                <li class="sidebar-content">
-                  <a class="sidebar-link" href="#">
-                    <h3 class="sidebar-content-title">Минтуризма опровергло приостановку выплат за шаги</h3>
-                    <span class="sidebar-content-text">Sputnik Узбекистан 14:32</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            
-            <div class="sidebar-reklama">
-              <a href="https://olmosresidence.uz/">
-                <img class="sidebar-reklama-img" src="img/reklama.jpg" alt="reklama-banner" width="393" height="338">
-              </a>
-            </div>
-          </section>
-        </div>
-      </div>
-    </main>
-    
-    <footer class="site-footer">
-      <div class="container">
-        <div class="footer-content">
-          <img class="footer-logo" src="/img/footer-logo.svg" alt="footer-logo" width="262" height="19">
-          
-          <div class="footer-top">
-            <p class="footer-title">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
-            </p>
-            <div class="footer-right">
-              <ul class="site-footer-links">
-                <li class="site-footer-list"><a class="site-footer-link" href="#">Информация о сайте</a></li>
-                <li class="site-footer-list"><a class="site-footer-link" href="#">Напишите нам</a></li>
-                <li class="site-footer-list"><a class="site-footer-link" href="#">Реклама</a></li>
-                <li class="site-footer-list"><a class="site-footer-link" href="#">Прислать новость</a></li>
-              </ul>
-              <ul class="site-footer-links">
-                <li class="site-footer-list"><a class="site-footer-link" href="#">Использование материалов</a></li>
-                <li class="site-footer-list"><a class="site-footer-link" href="#">Темы дня</a></li>
-                <li class="site-footer-list"><a class="site-footer-link" href="#">Наша команда</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="footer-bottom">
-            <h3 class="footer-bottom-title">Наши социальные сети</h3>
-            <ul class="footer-social">
-              <li class="footer-social-list">
-                <a href="#" target="_blank">
-                  <img class="footer-icon" src="img/icon-facebook.png" alt="facebook" width="25" height="25">
-                </a>
-              </li>
-              <li class="footer-social-list">
-                <a href="https://www.instagram.com/namanganliklar24.uz/" target="_blank">
-                  <img class="footer-icon" src="img/icon-instagram.png" alt="instagram" width="25" height="25">
-                </a>
-              </li>
-              <li class="footer-social-list">
-                <a href="https://t.me/namanganliklar" target="_blank">
-                  <img class="footer-icon" src="img/icon-telegram.png" alt="telegram" width="25" height="25">
-                </a>
-              </li>
-              <li class="footer-social-list">
-                <a href="https://www.youtube.com/channel/UC3qE3XZY4VpzOEAWNxgYrzQ" target="_blank">
-                  <img class="footer-icon" src="img/icon-youtube.png" alt="youtube" width="25" height="25">
-                </a>
-              </li>
+    </div>
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <img class="footer-logo" src="/img/footer-logo.svg" alt="footer-logo" width="262" height="19">
+        
+        <div class="footer-top">
+          <p class="footer-title">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+          </p>
+          <div class="footer-right">
+            <ul class="site-footer-links">
+              <li class="site-footer-list"><a class="site-footer-link" href="#">Информация о сайте</a></li>
+              <li class="site-footer-list"><a class="site-footer-link" href="#">Напишите нам</a></li>
+              <li class="site-footer-list"><a class="site-footer-link" href="#">Реклама</a></li>
+              <li class="site-footer-list"><a class="site-footer-link" href="#">Прислать новость</a></li>
+            </ul>
+            <ul class="site-footer-links">
+              <li class="site-footer-list"><a class="site-footer-link" href="#">Использование материалов</a></li>
+              <li class="site-footer-list"><a class="site-footer-link" href="#">Темы дня</a></li>
+              <li class="site-footer-list"><a class="site-footer-link" href="#">Наша команда</a></li>
             </ul>
           </div>
         </div>
+        
+        <div class="footer-bottom">
+          <h3 class="footer-bottom-title">Наши социальные сети</h3>
+          <ul class="footer-social">
+            <li class="footer-social-list">
+              <a href="#" target="_blank">
+                <img class="footer-icon" src="img/icon-facebook.png" alt="facebook" width="25" height="25">
+              </a>
+            </li>
+            <li class="footer-social-list">
+              <a href="https://www.instagram.com/namanganliklar24.uz/" target="_blank">
+                <img class="footer-icon" src="img/icon-instagram.png" alt="instagram" width="25" height="25">
+              </a>
+            </li>
+            <li class="footer-social-list">
+              <a href="https://t.me/namanganliklar" target="_blank">
+                <img class="footer-icon" src="img/icon-telegram.png" alt="telegram" width="25" height="25">
+              </a>
+            </li>
+            <li class="footer-social-list">
+              <a href="https://www.youtube.com/channel/UC3qE3XZY4VpzOEAWNxgYrzQ" target="_blank">
+                <img class="footer-icon" src="img/icon-youtube.png" alt="youtube" width="25" height="25">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </footer>
-    
-  </body>
-  </html>
+    </div>
+  </footer>
+  
+</body>
+</html>
