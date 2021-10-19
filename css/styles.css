@@ -66,6 +66,10 @@ body {
   display: block;
   width: 100%;
 }
+.button-contat {
+  color: #fff;
+  background-color: #7296ef;
+}
 /* Container */
 .container {
   width: 100%;

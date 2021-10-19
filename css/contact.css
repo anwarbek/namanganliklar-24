@@ -1,0 +1,109 @@
+.sitenav {
+  margin-bottom: 60px;
+}
+
+.main-content {
+}
+.container {
+}
+.layout-2-1 {
+}
+.layout-2-1-input {
+}
+.contact-input {
+}
+.contact-input-heading {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+}
+.input-contact {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.input-contact:last-child {
+  margin-bottom: 20px;
+}
+.form-input-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 696px;
+  margin-right: 10px;
+}
+.top-input {
+  width: 343px;
+}
+.top-input:first-child {
+  margin-right: 10px;
+}
+textarea {
+  display: flex;
+  min-width: 696px;
+  min-height: 180px;
+  resize: none;
+}
+.button-contat {
+  padding: 17px 30px;
+}
+.layout-2-1-contact {
+  width: 494px;
+}
+.layout-2-1-contact-item {
+  padding: 40px 25px;
+}
+.sidebar-contact-card {
+  border-radius: 15px;
+  color: #000;
+  background-color: #f6f6f6;
+  margin: 0;
+}
+.sidebar-contact-card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-contact-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sidebar-contact-card-item:first-child {
+  padding-top: 0;
+}
+.sidebar-contact-card-item:last-child {
+  padding-bottom: 0;
+}
+.sidebar-contact-card-item:not(:last-child) {
+  border-bottom: 1px solid #d1d1d1;
+}
+.contact-info-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+  margin-bottom: 7px;
+}
+.contact-info-text {
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
